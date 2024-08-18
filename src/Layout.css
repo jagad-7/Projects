@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    margin-top: 10px;
+    background-color: rgb(51, 7, 7);
+    height: 50px;
+    
+}
+.header{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    gap: 1.5rem;
+    display: inline-flex;
+    text-transform: capitalize;
+    cursor:pointer;
+}
+a{
+  color: white;  
+  text-decoration: none;
+}
+a:hover{
+    color: burlywood;
+    text-decoration:underline;
+}
